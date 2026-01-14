@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let Mmass1 = 78;
+        let Mheight1 = 1.69;
+        let Jmass1 = 95;
+        let Jheight1 = 1.88;
+
+        
+        let MBMI1 = Mmass1 / (Mheight1*Mheight1);
+        let JBMI1 = Jmass1 / (Jheight1*Jheight1); 
+
+
+        console.log(MBMI1);
+        console.log(JBMI1);
+
+        if(MBMI1 > JBMI1){
+            console.log(`Mark's BMI(${MBMI1.toFixed(1)}) is higher than Jonh's(${JBMI1.toFixed(1)})`);
+        } else {
+            console.log(`Jonh's BMI(${MBMI1.toFixed(1)}) is higher than Mark's(${JBMI1.toFixed(1)})`);
+        }
+
+
+
+
+        let Mmass2 = 95;
+        let Mheight2 = 1.88;
+        let Jmass2 = 85;
+        let Jheight2 = 1.76;
+        
+        let MBMI2 = Mmass2 / (Mheight2*Mheight2);
+        let JBMI2 = Jmass2 / (Jheight2*Jheight2); 
+
+        console.log(MBMI2);
+        console.log(JBMI2);
+
+        if(MBMI1 > JBMI1){
+            console.log(`Mark's BMI(${MBMI2.toFixed(1)}) is higher than Jonh's(${JBMI2.toFixed(1)})`);
+        } else {
+            console.log(`Jonh's BMI(${MBMI2.toFixed(1)}) is higher than Mark's(${JBMI2.toFixed(1)})`);
+        }
+    </script>
+</body>
+</html>
