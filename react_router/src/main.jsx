@@ -1,13 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Bai1 from './Bai1.jsx'
-import Bai2 from './Bai2.jsx'
-import Bai3 from './Bai3.jsx'
-import Bai4 from './Bai4.jsx'
+import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Bai4 />
+    <App />
   </StrictMode>,
 )
